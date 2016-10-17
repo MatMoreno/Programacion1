@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Estudiante extends Persona {
 	private int grupo;
+	String fechaIngreso;
 
 	public Estudiante(String nif, String nombre, char sexo, Date fecha, int grupo) {
 		super(nif, nombre, sexo, fecha);
